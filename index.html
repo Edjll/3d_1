@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>3d</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="interface">
+		<p>deltaPositionX</p>
+		<input type="range" min="-5" max="5" step="0.1" id="deltaPositionX">
+		<p>deltaPositionY</p>
+		<input type="range" min="-5" max="5" step="0.1" id="deltaPositionY">
+		<p>deltaPositionZ</p>
+		<input type="range" min="-5" max="5" step="0.1" id="deltaPositionZ">
+		<p>deltaRotationX</p>
+		<input type="range" min="-0.2" max="0.2" step="0.001" id="deltaRotationX">
+		<p>deltaRotationY</p>
+		<input type="range" min="-0.2" max="0.2" step="0.001" id="deltaRotationY">
+		<p>deltaRotationZ</p>
+		<input type="range" min="-0.2" max="0.2" step="0.001" id="deltaRotationZ">
+	</div>
+	<script src="js/lib/three.min.js"></script>
+	<script src="js/interface.js"></script>
+	<script src="js/engine.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
